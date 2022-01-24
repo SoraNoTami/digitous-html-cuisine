@@ -5,42 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/homepage.css"/>
 </head>
 <body>
-<div>
-     <nav class="navbar navbar-expand-lg bg-transparent">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Homepage</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-brand">
-                    <a class="nav-link active" aria-current="page" font-family= "Courgette" href="#">Accueil</a>
-                </li>
-                <div>
-                    <li class="nav-item">
-                        <a class="nav-link justify-content-end" href="#">Equipe</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link justify-content-end" href="#">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link justify-content-end" href="#">Contact</a>
-                    </li>
+    <header class="bg-image text-white">
+        <div class="mask my-mask" >
+            <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand courgette" href="#" >Cui'zine</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active oswald" aria-current="page" href="#">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link oswald" href="#">Equipe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link oswald" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link oswald" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="d-flex flex-column align-items-center justify-content-center margin-top-header col-4 offset-4 h-100 mb-0">
+                        <img src="./img/logo_square_white.png" class="icon" alt="Logo">
+                        <h1 class="courgette">Cui'zine</h1>
+                        <h2 class="courgette">Le mag cuisine</h2>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </header>
+    <section class="section1">
+        <div class="d-flex align-items-center justify-content-center main-contenu">
+            <h2 class="oswald margin-section1-top">Derniers articles</h2>
+        </div>
+        <div class="section1-contenu">
+            <div class="d-flex flex-row align-items-center ">
+                <img src="./img/articles/suzette/suzette-header.jpg" alt="Suzette" class="img-contenu">
+                <div class="main-text">
+                    <h6 class="courgette fs-2">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h6>
+                    <p class="oswald fs-6">
+                        La franchise "Chez Suzette" qui fait un carton chez les bretons
+                        ouvre son premier restaurant à Paris dans le quartier latin. 
+                        Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées
+                        au froment ou au sarrazin!
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-center main-contenu">
+                <img src="./img/articles/metro/metro-header.jpg" alt="Metro" class="img-contenu">
+                <div class="main-text">
+                    <h6 class="courgette fs-2">Le Métro dessert</h6>
+                    <p class="oswald fs-6">
+                        Germain est ferrovipathe (ndlr: fan de train), son 
+                        fils Maxime est pâtissier. Ils ont décidé de réunir
+                        leur deux passions dans un restaurant à la déco inspiré 
+                        du métro parisien. A voir absolument, mais qu'en est-il
+                        d'y aller pour manger ? Clémentine entre en gare et nous
+                        donne son avis
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-row align-items-center main-contenu">
+                <img src="./img/articles/vitaly/vitaly-header.jpg" alt="Vitaly" class="img-contenu">
+                <div class="main-text">
+                    <h6 class="courgette fs-2">Vitaly, le végan italien</h6>
+                    <p class="oswald fs-6">
+                        Quand on pense italien, on pense lasagne et jambon de Parme.
+                        Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. 
+                        Cette fois, c'est moi Tony qui vais le tester pour vous.
+                    </p>
                 </div>
             </div>
         </div>
-      </nav>
-      <header class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
-      style="background-image: url(./img/header.jpg);">
-          <img src="./img/logo_square_white.png" alt="Logo">
-          <h1>Cui'zine</h1>
-          <h2>Le mag cuisine</h2>
-
-      </header>
-    </div>
+    </section>
 
 
 
@@ -49,9 +98,7 @@
 
 
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <script src="./js/bootstrap.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 </body>

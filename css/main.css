@@ -1,4 +1,59 @@
-head{
-    position: absolute;
-    z-index: -1;
+@font-face {font-family: Courgette ;src: url("../fonts/Courgette/Courgette-Regular.ttf");}
+@font-face {font-family: Oswald ;src: url("../fonts/Oswald/Oswald-Regular.ttf");}
+
+.courgette{
+    font-family: Courgette;
 }
+
+.oswald{
+    font-family: Oswald;
+}
+
+header{
+    background-image: url("../img/header.jpg");
+    height: 75vh;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.my-mask{
+    z-index: -1;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+hr{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+}
+
+nav{
+    border-color: rgba(255, 255, 255, 0.5);
+}
+.icon{
+    width: 65px;
+    margin-bottom: 17px;
+}
+.section1-contenu{
+    margin-left: 140px;
+}
+.margin-top-header{
+    margin-top: 50px;
+}
+.margin-section1-top{
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+.img-contenu{
+    width: 222px;
+}
+.margin-top-section1-contenu{
+    margin-top: 20px;
+}
+.main-contenu{
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+.main-text{
+    margin-left: 39px;
+}
+

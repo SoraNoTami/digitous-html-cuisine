@@ -33,7 +33,7 @@ nav{
     width: 65px;
     margin-bottom: 17px;
 }
-.section1-contenu{
+.section-contenu{
     margin-left: 140px;
 }
 .margin-top-header{
@@ -44,7 +44,7 @@ nav{
     margin-bottom: 35px;
 }
 .img-contenu{
-    width: 222px;
+    width: 200px;
 }
 .margin-top-section1-contenu{
     margin-top: 20px;
@@ -55,5 +55,16 @@ nav{
 }
 .main-text{
     margin-left: 39px;
+}
+.formulaire{
+    width: 500px;
+    margin-right: 100px; 
+    margin-left: 50px; 
+}
+.top-form{
+    margin-top: 20px;
+}
+.margin-zero{
+    margin: 0px;
 }
 

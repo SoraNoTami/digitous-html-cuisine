@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=https://use.fontawesome.com/releases/v5.15.4/css/all.css>
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.css"/>
     <link rel="stylesheet" type="text/css" href="./css/main.css"/>
     <link rel="stylesheet" type="text/css" href="./css/homepage.css"/>
@@ -50,46 +51,86 @@
         <div class="d-flex align-items-center justify-content-center main-contenu">
             <h2 class="oswald margin-section1-top">Derniers articles</h2>
         </div>
-        <div class="section1-contenu">
-            <div class="d-flex flex-row align-items-center ">
-                <img src="./img/articles/suzette/suzette-header.jpg" alt="Suzette" class="img-contenu">
-                <div class="main-text">
-                    <h6 class="courgette fs-2">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h6>
-                    <p class="oswald fs-6">
-                        La franchise "Chez Suzette" qui fait un carton chez les bretons
-                        ouvre son premier restaurant à Paris dans le quartier latin. 
-                        Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées
-                        au froment ou au sarrazin!
-                    </p>
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="section-contenu">
+                <div class="d-flex flex-row align-items-center">
+                    <img src="./img/articles/suzette/suzette-header.jpg" alt="Suzette" class="img-contenu">
+                    <div class="main-text">
+                        <h6 class="courgette fs-2">Chez Suzette, la nouvelle crêperie qui fait parler d'elle</h6>
+                        <p class="oswald">
+                            La franchise "Chez Suzette" qui fait un carton chez les bretons
+                            ouvre son premier restaurant à Paris dans le quartier latin. 
+                            Antoine de Cui'zine a testé pour vous les saveurs sucrées, salées
+                            au froment ou au sarrazin!
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="d-flex flex-row align-items-center main-contenu">
-                <img src="./img/articles/metro/metro-header.jpg" alt="Metro" class="img-contenu">
-                <div class="main-text">
-                    <h6 class="courgette fs-2">Le Métro dessert</h6>
-                    <p class="oswald fs-6">
-                        Germain est ferrovipathe (ndlr: fan de train), son 
-                        fils Maxime est pâtissier. Ils ont décidé de réunir
-                        leur deux passions dans un restaurant à la déco inspiré 
-                        du métro parisien. A voir absolument, mais qu'en est-il
-                        d'y aller pour manger ? Clémentine entre en gare et nous
-                        donne son avis
-                    </p>
+                <div class="d-flex flex-row align-items-center main-contenu">
+                    <img src="./img/articles/metro/metro-header.jpg" alt="Metro" class="img-contenu">
+                    <div class="main-text">
+                        <h6 class="courgette fs-2">Le Métro dessert</h6>
+                        <p class="oswald">
+                            Germain est ferrovipathe (ndlr: fan de train), son 
+                            fils Maxime est pâtissier. Ils ont décidé de réunir
+                            leur deux passions dans un restaurant à la déco inspiré 
+                            du métro parisien. A voir absolument, mais qu'en est-il
+                            d'y aller pour manger ? Clémentine entre en gare et nous
+                            donne son avis
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="d-flex flex-row align-items-center main-contenu">
-                <img src="./img/articles/vitaly/vitaly-header.jpg" alt="Vitaly" class="img-contenu">
-                <div class="main-text">
-                    <h6 class="courgette fs-2">Vitaly, le végan italien</h6>
-                    <p class="oswald fs-6">
-                        Quand on pense italien, on pense lasagne et jambon de Parme.
-                        Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. 
-                        Cette fois, c'est moi Tony qui vais le tester pour vous.
-                    </p>
+                <div class="d-flex flex-row align-items-center main-contenu">
+                    <img src="./img/articles/vitaly/vitaly-header.jpg" alt="Vitaly" class="img-contenu">
+                    <div class="main-text">
+                        <h6 class="courgette fs-2">Vitaly, le végan italien</h6>
+                        <p class="oswald">
+                            Quand on pense italien, on pense lasagne et jambon de Parme.
+                            Ils l'ont fait, les saveurs de l'Italie à portée des herbivores. 
+                            Cette fois, c'est moi Tony qui vais le tester pour vous.
+                        </p>
+                    </div>
                 </div>
+                <a href="">voir les articles précédents</a>
             </div>
+            <form class="formulaire">
+                <div class="d-grid">
+                    <div>
+                        <label class="form-label courgette top-form">Recherche</label>
+                        <input type="search" class="form-control oswald" placeholder="Recherche...">
+                    </div>
+                    <button type="button" class="btn btn-outline-dark">Ok</button>
+                </div>
+                <div class="d-grid">
+                    <div>
+                        <label class="form-label courgette top-form">Newsletter</label>
+                        <input type="email" class="form-control oswald" placeholder="Email...">
+                    </div>
+                <button type="button" class="btn btn-outline-dark">S'inscrire</button>
+                </div>
+                <p class="courgette top-form">Partager</p>
+                <button type="button" class="btn btn-light"><i class="fab fa-facebook-square"></i></button>
+                <button type="button" class="btn btn-light"><i class="fab fa-instagram"></i></button>
+                <button type="button" class="btn btn-light"><i class="fab fa-youtube"></i></button>
+                <button type="button" class="btn btn-light"><i class="fab fa-twitter"></i></button>
+            </form>
         </div>
     </section>
+    <footer class="bg-dark text-white">
+        <div>
+            <h6 class="courgette fs-2 margin-zero">Catégorie</h6>
+            <ul>
+                <li>
+                    <a>Revues</a>
+                </li>
+                <li>
+                    <a>Recettes</a>
+                </li>
+                <li>
+                    <a>Découvertes</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 
 

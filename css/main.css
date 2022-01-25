@@ -34,7 +34,8 @@ nav{
     margin-bottom: 17px;
 }
 .section-contenu{
-    margin-left: 140px;
+    margin-left: 180px;
+    margin-bottom: 50px;
 }
 .margin-top-header{
     margin-top: 50px;
@@ -51,7 +52,7 @@ nav{
 }
 .main-contenu{
     margin-top: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
 }
 .main-text{
     margin-left: 39px;
@@ -59,12 +60,27 @@ nav{
 .formulaire{
     width: 500px;
     margin-right: 100px; 
-    margin-left: 50px; 
+    margin-left: 50px;
+    margin-bottom: 300px;
 }
 .top-form{
     margin-top: 20px;
 }
-.margin-zero{
-    margin: 0px;
+.m-100{
+    margin: 100px;
+}
+li{
+    list-style: none;
+}
+.a-footer{
+    color: white;
+    list-style: none;
+}
+.a-footer:hover{
+    color: none;
+}
+.footer-content{
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
